@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 
-class Listing extends Component {
+class Order_List extends Component {
     constructor(props) {
         super(props);
         this.state = {listOrders: []};
@@ -72,4 +72,4 @@ class Listing extends Component {
   
     }
 }
-export default Listing;
+export default Order_List;
