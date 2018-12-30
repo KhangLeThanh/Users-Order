@@ -3,6 +3,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+## Pages and navigation
+    Login Page
+    Order List Page
+    Oder Detail Page 
+
+
+##  Technological considerations
+    * Login Page:
+        * Email: me@tuup.fi
+        * Password: ok
+    * Order List Page - Order Detail Page
+        * Fetching data from local fake json file 
+        * The fake json file is created based on Purchasing The Order of Kyyti platform 
+        * The order list page will show 2 orders (Kyyti Kimppa and Kyyti Oy)
+        * The order detail page will show more details of product ( Name, Place, Price, and Maps). Maps is used for demonstration purpose. Further functionality can be enabled when using paid version of google maps. 
+    * Using react-router-dom to connect 3 pages. 
+    * Using google-maps-react to display google maps on order list page
+    * Using Bootstrap 4 and Google Material Design for creating structure layout, navigation
+    * Adding essential buttons (Sign up, Adding New Order, My Account, and Log out) to make the interface complete
+
 
 ### `npm start`
 

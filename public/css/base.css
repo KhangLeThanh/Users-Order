@@ -1,0 +1,40 @@
+h1,h2,h3{
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    color: #ff7602;
+  }
+label,p,li{
+  font-family: 'Ubuntu', Arial;
+  font-weight: 400;
+  color: #000;
+}
+a,a:hover{
+  color: #ff7602 !important;
+}
+  .btn{
+    font-family: 'Ubuntu', Arial;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+    border: 1px solid #000  
+  }
+  .btn:hover{
+    background-color:transparent;
+    color: #000
+  }
+  table{
+    text-align:left;
+  }
+  .navbar-collapse{
+    justify-content: flex-end;
+  }
+  .delete-button {
+    background-color: #BB3B4C;
+    border: #BB3B4C;
+  }
+  .delete-button:hover {
+    background-color: #da1932;
+    border: #da1932;
+    color: #fff
+}
